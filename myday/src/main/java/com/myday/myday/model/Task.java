@@ -26,6 +26,9 @@ public class Task {
         this.priority =priortiy;
     }
 
+    public Task() {
+    }
+
     public Long getId() {
         return id;
     }

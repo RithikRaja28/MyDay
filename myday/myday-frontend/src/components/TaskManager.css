@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(to right, #f4f7fa, #eef2f3);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-gradient {
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.task-card:hover {
+  transform: translateY(-3px);
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
